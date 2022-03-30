@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Russo+One&display=swap");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+	/* font-family: 'Russo One', sans-serif; */
+	color: white;
+}
+
+:root {
+	--green: #a3ff12;
+	--dark-gray: #151625;
+	--dark: #0a0b1a;
+}
+
+header {
+	background-color: var(--dark);
+	padding: 20px;
+	height: 100vh;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+#logo {
+	text-decoration: none;
+	font-family: "Russo One", sans-serif;
+	margin-right: 20px;
+	font-size: 24px;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	margin-left: 20px;
+}
+
+nav ul li {
+	list-style: none;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: "Russo One", sans-serif;
+}
+
+#email {
+	width: 100px;
+	padding: 10px 20px;
+	background-color: white;
+	color: var(--dark);
+	text-decoration: none;
+	font-family: "Russo One", sans-serif;
+}
+.hero-text {
+	width: 1170px;
+	margin: 200px auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.hero-text h1 {
+	font-family: "Russo One", sans-serif;
+	margin-bottom: 20px;
+}
+.emailform {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.emailform input {
+	background-color: var(--dark-gray);
+	padding: 10px 20px;
+	width: 300px;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.emailform button {
+	color: var(--dark);
+	background-color: var(--green);
+	padding: 10px 20px;
+	border: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;
+}
