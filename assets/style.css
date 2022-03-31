@@ -222,3 +222,62 @@ nav ul li a {
 	margin-bottom: 5px;
 	text-transform: uppercase;
 }
+
+.contact-us {
+	background-color: var(--dark-gray);
+	padding: 100px 0;
+	background-image: url("./star-bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.contact-us h2 {
+	font-family: "Russo One", sans-serif;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+.contact-form {
+	padding: 2rem;
+}
+.form-group {
+	text-align: center;
+	max-width: 400px;
+	margin: 30px auto;
+}
+.form-group label {
+	display: block;
+	text-align: left;
+	font-family: "Russo One", sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.form-group input {
+	background-color: var(--dark-gray);
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	width: 100%;
+}
+
+.form-group textarea {
+	background-color: var(--dark-gray);
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	width: 100%;
+	height: 200px;
+}
+.contact-form button {
+	background-color: var(--green);
+	color: var(--dark);
+	font-size: 18px;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
